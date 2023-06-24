@@ -1,0 +1,44 @@
+theme = "my_gruvbox"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode"]
+center = ["file-modification-indicator", "file-name"]
+right = ["position"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.indent-guides]
+render = true
+skip-level = 1
+character = "·"
+
+[editor]
+cursorline = true
+true-color = true
+bufferline = "always"
+rulers = [80]
+color-modes = true
+soft-wrap.enable = true
+
+[keys.normal]
+# View
+A-w = ":buffer-close"
+A-v = "vsplit"
+A-j = "rotate_view"
+A-q = "wclose"
+#system
+C-s = ":write"
+C-j = "save_selection"
+# buffer navigation
+tab = "goto_next_buffer"
+A-tab = "goto_previous_buffer" 
+
+[keys.insert]
+A-j = "rotate_view"

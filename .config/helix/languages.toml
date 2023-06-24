@@ -1,0 +1,7 @@
+[[language]]
+name = "starlark"
+scope = "source.starlark"
+injection-regex = "starlark"
+file-types = ["bzl", "BUCK", "BUILD"]
+comment-token = "#"
+indent = { tab-width = 4, unit = "    " }
