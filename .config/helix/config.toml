@@ -32,6 +32,8 @@ soft-wrap.enable = true
 A-w = ":buffer-close"
 A-v = "vsplit"
 A-j = "rotate_view"
+A-h = "jump_view_left"
+A-l = "jump_view_right"
 A-q = "wclose"
 #system
 C-s = ":write"
