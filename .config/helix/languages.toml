@@ -5,3 +5,16 @@ injection-regex = "starlark"
 file-types = ["bzl", "BUCK", "BUILD"]
 comment-token = "#"
 indent = { tab-width = 4, unit = "    " }
+
+[[language]]                                                             
+name = "vue"
+auto-format = true
+file-types = ["vue"]
+injection-regex = "vue"
+language-server = { command = "vue-language-server", args = ["--stdio"] }
+roots = ["package.json"]
+scope = "text.html.vue"
+
+[language.config.typescript]
+tsdk = "/usr/lib/node_modules/typescript/lib"
+
