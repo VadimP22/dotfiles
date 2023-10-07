@@ -9,7 +9,7 @@
 "keyword.directive" = "red"
 "keyword.operator" = "orange"
 "keyword.storage" = {fg = "cyan", modifiers = ["bold"]}
-"keyword.storage.modifier" = "magenta"
+"keyword.storage.modifier" = "cyan"
 "namespace" = "cyan"
 "punctuation" = "cyan"
 "punctuation.delimiter" = "cyan"
