@@ -1,7 +1,7 @@
 # Original: gotham-vim by whatyouhide
 # Original repo link: https://github.com/whatyouhide/vim-gotham/tree/main
 # 
-# Port by VadimP22 (https://github.com/vadimp22)
+# Port by VadimP22 with some modifications :) (https://github.com/vadimp22)
  
 
 "attribute" = "magenta"
@@ -25,7 +25,8 @@
 "function.macro" = { fg = "orange", modifiers = ["bold"] }
 "function.special" = { fg = "orange", modifiers = ["bold"] }
 "function.builtin" = { fg = "blue", modifiers = ["bold"] }
-"comment" = "blue"
+# "comment" = "blue"
+"comment" = "base3"
 "variable.builtin" = {fg = "base5", modifiers = ["bold"]}
 "constant" = "magenta"
 "constant.builtin" = {fg = "magenta", modifiers = ["bold"]}
@@ -49,19 +50,25 @@
 "diff.delta" = "orange"
 "diff.minus" = "red"
 
-"ui.background" = { bg = "base0" }
+# "ui.background" = { bg = "base0" }
+"ui.background" = { bg = "#000000" }
 "ui.linenr" = { fg = "base2" }
 "ui.linenr.selected" = { fg = "base5" }
 "ui.cursorline" = { bg = "base1" }
+# "ui.statusline" = { fg = "base0", bg = "base5" }
 "ui.statusline" = { fg = "base0", bg = "base5" }
-"ui.statusline.inactive" = { fg = "base4", bg = "base3" }
-"ui.popup" = { bg = "base2" }
-"ui.window" = { bg = "base2" }
-"ui.help" = { bg = "base2" }
+# "ui.statusline.inactive" = { fg = "base4", bg = "base3" }
+"ui.statusline.inactive" = { fg = "base5", bg = "base3" }
+"ui.popup" = { bg = "base1" }
+"ui.window" = { bg = "base1" }
+"ui.help" = { bg = "base1" }
 
 "ui.statusline.normal" = { fg = "base0", bg = "blue", modifiers = [ "bold" ]}
 "ui.statusline.insert" = { fg = "base0", bg = "orange", modifiers = [ "bold" ]}
 "ui.statusline.select" = { fg = "base0", bg = "cyan", modifiers = [ "bold" ] }
+
+"ui.bufferline" = { fg = "blue", bg = "#000000" }
+"ui.bufferline.active" = { fg = "base5", bg = "base3", modifiers = ["bold"]}
 
 "ui.text" = { fg = "base6" }
 "ui.text.focus" = { fg = "base6", modifiers= ["bold"] }
