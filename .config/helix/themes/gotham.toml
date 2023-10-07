@@ -1,0 +1,107 @@
+# Original: gotham-vim by whatyouhide
+# Original repo link: https://github.com/whatyouhide/vim-gotham/tree/main
+# 
+# Port by VadimP22 (https://github.com/vadimp22)
+ 
+
+"attribute" = "magenta"
+"keyword" = { fg = "red", modifiers = ["bold"] }
+"keyword.directive" = "red"
+"keyword.operator" = "orange"
+"keyword.storage" = {fg = "cyan", modifiers = ["bold"]}
+"keyword.storage.modifier" = "magenta"
+"namespace" = "cyan"
+"punctuation" = "cyan"
+"punctuation.delimiter" = "cyan"
+"operator" = "orange"
+"special" = "orange"
+"variable.other.member" = "cyan"
+"variable" = "cyan"
+"variable.parameter" = "cyan"
+"type" = "orange"
+"type.builtin" = { fg = "orange", modifiers = ["bold"] }
+"constructor" = "red"
+"function" = "base6"
+"function.macro" = { fg = "orange", modifiers = ["bold"] }
+"function.special" = { fg = "orange", modifiers = ["bold"] }
+"function.builtin" = { fg = "blue", modifiers = ["bold"] }
+"comment" = "blue"
+"variable.builtin" = {fg = "base5", modifiers = ["bold"]}
+"constant" = "magenta"
+"constant.builtin" = {fg = "magenta", modifiers = ["bold"]}
+"string" = "green"
+"constant.numeric" = "orange"
+"constant.character.escape" = { fg = "green", modifiers = ["bold"] }
+"label" = "blue"
+"module" = "red"
+
+"markup.heading" = "blue"
+"markup.list" = "red"
+"markup.bold" = { fg = "yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "violet", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "yellow", modifiers = ["underlined"] }
+"markup.link.text" = "red"
+"markup.quote" = "green"
+"markup.raw" = "green"
+
+"diff.plus" = "green"
+"diff.delta" = "orange"
+"diff.minus" = "red"
+
+"ui.background" = { bg = "base0" }
+"ui.linenr" = { fg = "base2" }
+"ui.linenr.selected" = { fg = "base5" }
+"ui.cursorline" = { bg = "base1" }
+"ui.statusline" = { fg = "base0", bg = "base5" }
+"ui.statusline.inactive" = { fg = "base4", bg = "base3" }
+"ui.popup" = { bg = "base2" }
+"ui.window" = { bg = "base2" }
+"ui.help" = { bg = "base2" }
+
+"ui.statusline.normal" = { fg = "base0", bg = "blue", modifiers = [ "bold" ]}
+"ui.statusline.insert" = { fg = "base0", bg = "orange", modifiers = [ "bold" ]}
+"ui.statusline.select" = { fg = "base0", bg = "cyan", modifiers = [ "bold" ] }
+
+"ui.text" = { fg = "base6" }
+"ui.text.focus" = { fg = "base6", modifiers= ["bold"] }
+"ui.virtual.whitespace" = "base3"
+"ui.virtual.ruler" = { bg = "base1" }
+
+"ui.selection" = { bg = "base3" }
+"ui.cursor.match" = { modifiers = ["underlined", "bold"] }
+"ui.cursor" = { modifiers = ["reversed"] }
+
+"ui.menu" = { fg = "base5", bg = "base1" }
+"ui.menu.selected" = { bg = "base3" }
+
+"warning" = "orange"
+"error" = "red"
+"info" = "green"
+"hint" = "blue"
+
+# make diagnostic underlined, to distinguish with selection text.
+"diagnostic.warning" = { underline = { color = "orange", style = "curl"} }
+"diagnostic.error" = { underline = { color = "red", style = "curl"} }
+"diagnostic.info" = { underline = { color = "green", style = "curl"} }
+"diagnostic.hint" = { underline = { color = "blue", style = "curl"} }
+
+[palette]
+
+red = "#c23127"
+orange = "#d26937"
+yellow = "#edb443"
+magenta = "#888ca6"
+violet = "#4e5166"
+blue = "#195466"
+cyan = "#33859E"
+green = "#2aa889"
+
+base0 = "#0c1014"
+base1 = "#11151c" 
+base2 = "#091f2e"
+base3 = "#0a3749" 
+base4 = "#1e6479" 
+base5 = "#599cab"
+base6 = "#99d1ce"
+base7 = "#d3ebe9"
