@@ -1,4 +1,4 @@
-theme = "my_gruvbox"
+theme = "gotham"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -38,6 +38,8 @@ A-q = "wclose"
 #system
 C-s = ":write"
 C-j = "save_selection"
+A-f = "file_picker_in_current_directory"
+A-b = "file_picker_in_current_buffer_directory"
 # buffer navigation
 tab = "goto_next_buffer"
 A-tab = "goto_previous_buffer" 
