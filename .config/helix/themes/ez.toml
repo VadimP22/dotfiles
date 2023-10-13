@@ -3,56 +3,78 @@
 # Feel free to steal/port/rename :)
 
 # Syntax
-"comment" = { fg = "base2" }
+"comment" = { fg = "base3" }
 "attribute" = { fg = "magenta" }
-"keyword" = { fg = "red", modifiers = ["bold"] }
-"keyword.directive" = { fg = "dark_red" }
-"keyword.storage.modifier" = { fg = "dark_red", modifiers = ["bold"] }
+
+"keyword" = { fg = "orange", modifiers = ["bold"] }
+"keyword.control" = { fg = "orange", modifiers = ["bold"] }
+"keyword.directive" = { fg = "red" }
+"keyword.storage.modifier" = { fg = "dark_orange", modifiers = ["bold"] }
+"keyword.function" = { fg = "lime", modifiers = ["bold"] }
+
 "type" = { fg = "magenta" }
 "type.builtin" = { fg = "magenta", modifiers = ["bold"] }
-"constant" = { fg = "aqua" }
-"constant.builtin" = { fg = "aqua", modifiers = ["bold"] }
-"string" = { fg = "aqua" }
-"variable" = { fg = "base4" }
-"variable.parameter" = { fg = "base3" }
-"punctuation" = { fg = "base3" }
-"operator" = { fg = "red" }
-"function" = { fg = "yellow" }
-"function.builtin" = { fg = "yellow", modifiers = ["bold"]}
+
+"constant" = { fg = "blue" }
+"constant.builtin" = { fg = "blue", modifiers = ["bold"] }
+"string" = { fg = "blue" }
+
+"variable" = { fg = "base5" }
+"variable.parameter" = { fg = "dark_aqua" }
+
+"punctuation" = { fg = "base4" }
+"operator" = { fg = "dark_blue" }
+
+"function" = { fg = "aqua" }
+"function.builtin" = { fg = "aqua", modifiers = ["bold"]}
+"function.macro" = { fg = "red" }
+
 "namespace" = { fg = "dark_magenta" }
 
+# Errors
+"warning" = "yellow"
+"error" = "red"
+"info" = "aqua"
+"hint" = "base5"
+
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl"} }
+"diagnostic.error" = { underline = { color = "red", style = "curl"} }
+"diagnostic.info" = { underline = { color = "aqua", style = "curl"} }
+"diagnostic.hint" = { underline = { color = "base5", style = "curl"} }
+
 # UI common
-"ui.background" = { bg = "black" }
-"ui.text" = { fg = "base4" }
-"ui.text.focus" = { fg = "yellow", modifiers = ["bold"] }
-"ui.text.inactive" = { fg = "base2" }
-"ui.text.info" = { fg = "base4" }
-"ui.linenr" = { fg = "base1" }
-"ui.linenr.selected" = { fg = "base2", modifiers = ["bold"] }
-"ui.cursorline" = { bg = "base0" }
-"ui.selection" = { bg = "base1" }
-"ui.cursor" = { bg = "base4", fg = "black" }
-"ui.cursor.match" = { fg = "red", modifiers = ["bold", "underlined"] }
+"ui.background" = { bg = "base0" }
+"ui.text" = { fg = "base5" }
+"ui.text.focus" = { fg = "lime", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "base3" }
+"ui.text.info" = { fg = "base5" }
+"ui.linenr" = { fg = "base2" }
+"ui.linenr.selected" = { fg = "base3", modifiers = ["bold"] }
+"ui.cursorline" = { bg = "base1" }
+"ui.selection" = { bg = "base2" }
+"ui.cursor" = { bg = "base5", fg = "base0" }
+"ui.cursor.match" = { fg = "orange", modifiers = ["bold", "underlined"] }
 
 # UI menus
-"ui.menu" = { bg = "base0", fg = "base4" }
-"ui.menu.selected" = { bg = "base4", fg = "base0" }
-"ui.popup" = { fg = "base3", bg = "base0" }
-"ui.highlight" = "aqua"
+"ui.menu" = { bg = "base1", fg = "base5" }
+"ui.menu.selected" = { bg = "base5", fg = "base1" }
+"ui.popup" = { fg = "base4", bg = "base1" }
+"ui.highlight" = "blue"
+"special" = "dark_blue"
 
 # UI editor
-"ui.virtual.indent-guide" = { fg = "base1" }
-"ui.virtual.ruler" = { bg = "base0" }
-"ui.gutter" = { fg = "base0" }
-"ui.gutter.selected" = { fg = "base2" }
-"ui.window" = { fg = "base0" }
+"ui.virtual.indent-guide" = { fg = "base2" }
+"ui.virtual.ruler" = { bg = "base1" }
+"ui.gutter" = { fg = "base1" }
+"ui.gutter.selected" = { fg = "base3" }
+"ui.window" = { fg = "base1" }
 
 # Statusline
-"ui.statusline" = { bg = "base1", fg = "base4" }
-"ui.statusline.inactive" = { bg = "base0", fg = "base3" }
-"ui.statusline.normal" = { bg = "base4", fg = "black", modifiers = ["bold"] }
-"ui.statusline.insert" = { bg = "yellow", fg = "black", modifiers = ["bold"] }
-"ui.statusline.select" = { bg = "magenta", fg = "black", modifiers = ["bold"] }
+"ui.statusline" = { bg = "base2", fg = "base5" }
+"ui.statusline.inactive" = { bg = "base1", fg = "base4" }
+"ui.statusline.normal" = { bg = "base5", fg = "base0", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "lime", fg = "base0", modifiers = ["bold"] }
+"ui.statusline.select" = { bg = "magenta", fg = "base0", modifiers = ["bold"] }
 
 # Diff
 "diff.plus" = "aqua"
@@ -61,21 +83,25 @@
 
 
 [palette]
-black = "#0D0E11"
-white = "#ffffff"
+yellow = "#FFBF60"
+orange = "#FF6F50"
+red = "#E53353"
+magenta = "#A967D2"
+blue = "#556DED"
+aqua = "#45BDB6"
+lime = "#CCFF5F"
 
-red = "#FF6F50"
-magenta = "#C15CFF"
-aqua = "#4765FF"
-yellow = "#CCFF5F"
+dark_yellow = "#A57C3E"
+dark_orange = "#A95543"
+dark_red = "#852234"
+dark_magenta = "#6F4588"
+dark_blue = "#384CB5"
+dark_aqua = "#226B67"
+dark_lime = "#82955A"
 
-dark_red = "#A95543"
-dark_magenta = "#744293"
-dark_aqua = "#384CB5"
-dark_yellow = "#6D8835"
-
-base0 = "#14161B"
-base1 = "#20222B"
-base2 = "#2E343F"
-base3 = "#3F4756"
-base4 = "#8D9ABA"
+base0 = "#0D0E11"
+base1 = "#14161B"
+base2 = "#20222B"
+base3 = "#2E343F"
+base4 = "#3F4756"
+base5 = "#8D9ABA"
