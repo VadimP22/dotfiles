@@ -17,7 +17,7 @@
 
 "constant" = { fg = "blue" }
 "constant.builtin" = { fg = "blue", modifiers = ["bold"] }
-"string" = { fg = "blue" }
+"string" = { fg = "green" }
 
 "variable" = { fg = "base5" }
 "variable.parameter" = { fg = "dark_aqua" }
@@ -77,7 +77,7 @@
 "ui.statusline.select" = { bg = "magenta", fg = "base0", modifiers = ["bold"] }
 
 # Diff
-"diff.plus" = "aqua"
+"diff.plus" = "green"
 "diff.delta" = "yellow"
 "diff.minus" = "red"
 
@@ -89,6 +89,7 @@ red = "#E53353"
 magenta = "#A967D2"
 blue = "#556DED"
 aqua = "#45BDB6"
+green = "#58B058"
 lime = "#CCFF5F"
 
 dark_yellow = "#A57C3E"
@@ -97,6 +98,7 @@ dark_red = "#852234"
 dark_magenta = "#6F4588"
 dark_blue = "#384CB5"
 dark_aqua = "#226B67"
+dark_green = "#467A46"
 dark_lime = "#82955A"
 
 base0 = "#0D0E11"
