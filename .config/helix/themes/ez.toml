@@ -1,0 +1,81 @@
+# Ez theme 
+# Created by VadimP22 (https://github.com/vadimp22)
+# Feel free to steal/port/rename :)
+
+# Syntax
+"comment" = { fg = "base2" }
+"attribute" = { fg = "magenta" }
+"keyword" = { fg = "red", modifiers = ["bold"] }
+"keyword.directive" = { fg = "dark_red" }
+"keyword.storage.modifier" = { fg = "dark_red", modifiers = ["bold"] }
+"type" = { fg = "magenta" }
+"type.builtin" = { fg = "magenta", modifiers = ["bold"] }
+"constant" = { fg = "aqua" }
+"constant.builtin" = { fg = "aqua", modifiers = ["bold"] }
+"string" = { fg = "aqua" }
+"variable" = { fg = "base4" }
+"variable.parameter" = { fg = "base3" }
+"punctuation" = { fg = "base3" }
+"operator" = { fg = "red" }
+"function" = { fg = "yellow" }
+"function.builtin" = { fg = "yellow", modifiers = ["bold"]}
+"namespace" = { fg = "dark_magenta" }
+
+# UI common
+"ui.background" = { bg = "black" }
+"ui.text" = { fg = "base4" }
+"ui.text.focus" = { fg = "yellow", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "base2" }
+"ui.text.info" = { fg = "base4" }
+"ui.linenr" = { fg = "base1" }
+"ui.linenr.selected" = { fg = "base2", modifiers = ["bold"] }
+"ui.cursorline" = { bg = "base0" }
+"ui.selection" = { bg = "base1" }
+"ui.cursor" = { bg = "base4", fg = "black" }
+"ui.cursor.match" = { fg = "red", modifiers = ["bold", "underlined"] }
+
+# UI menus
+"ui.menu" = { bg = "base0", fg = "base4" }
+"ui.menu.selected" = { bg = "base4", fg = "base0" }
+"ui.popup" = { fg = "base3", bg = "base0" }
+"ui.highlight" = "aqua"
+
+# UI editor
+"ui.virtual.indent-guide" = { fg = "base1" }
+"ui.virtual.ruler" = { bg = "base0" }
+"ui.gutter" = { fg = "base0" }
+"ui.gutter.selected" = { fg = "base2" }
+"ui.window" = { fg = "base0" }
+
+# Statusline
+"ui.statusline" = { bg = "base1", fg = "base4" }
+"ui.statusline.inactive" = { bg = "base0", fg = "base3" }
+"ui.statusline.normal" = { bg = "base4", fg = "black", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "yellow", fg = "black", modifiers = ["bold"] }
+"ui.statusline.select" = { bg = "magenta", fg = "black", modifiers = ["bold"] }
+
+# Diff
+"diff.plus" = "aqua"
+"diff.delta" = "yellow"
+"diff.minus" = "red"
+
+
+[palette]
+black = "#0D0E11"
+white = "#ffffff"
+
+red = "#FF6F50"
+magenta = "#C15CFF"
+aqua = "#4765FF"
+yellow = "#CCFF5F"
+
+dark_red = "#A95543"
+dark_magenta = "#744293"
+dark_aqua = "#384CB5"
+dark_yellow = "#6D8835"
+
+base0 = "#14161B"
+base1 = "#20222B"
+base2 = "#2E343F"
+base3 = "#3F4756"
+base4 = "#8D9ABA"
