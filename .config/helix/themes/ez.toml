@@ -8,8 +8,8 @@
 
 "keyword" = { fg = "orange", modifiers = ["bold"] }
 "keyword.control" = { fg = "orange", modifiers = ["bold"] }
-"keyword.directive" = { fg = "red" }
-"keyword.storage.modifier" = { fg = "dark_orange", modifiers = ["bold"] }
+"keyword.directive" = { fg = "dark_orange" }
+"keyword.storage.modifier" = { fg = "lime", modifiers = ["bold"] }
 "keyword.function" = { fg = "lime", modifiers = ["bold"] }
 
 "type" = { fg = "blue" }
@@ -45,7 +45,7 @@
 # UI common
 "ui.background" = { bg = "base0" }
 "ui.text" = { fg = "base5" }
-"ui.text.focus" = { fg = "lime", modifiers = ["bold"] }
+"ui.text.focus" = { fg = "base6", bg = "base2", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "base3" }
 "ui.text.info" = { fg = "base5" }
 "ui.linenr" = { fg = "base2" }
@@ -60,8 +60,8 @@
 "ui.menu.selected" = { bg = "base5", fg = "base1" }
 "ui.popup" = { fg = "base4", bg = "base1" }
 "ui.help" = { fg = "base6", bg = "base2" }
-"ui.highlight" = "blue"
-"special" = "base6"
+"ui.highlight" = { bg = "base2" }
+"special" = "lime"
 
 # UI editor
 "ui.virtual.indent-guide" = { fg = "base2" }
@@ -74,8 +74,12 @@
 "ui.statusline" = { bg = "base2", fg = "base5" }
 "ui.statusline.inactive" = { bg = "base1", fg = "base4" }
 "ui.statusline.normal" = { bg = "base6", fg = "base0", modifiers = ["bold"] }
-"ui.statusline.insert" = { bg = "lime", fg = "base0", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "orange", fg = "base0", modifiers = ["bold"] }
 "ui.statusline.select" = { bg = "magenta", fg = "base0", modifiers = ["bold"] }
+
+# Bufferline
+"ui.bufferline" = { bg = "base0", fg = "base4" }
+"ui.bufferline.active" = { bg = "base4", fg = "base6", modifiers = ["bold"] }
 
 # Diff
 "diff.plus" = "green"
