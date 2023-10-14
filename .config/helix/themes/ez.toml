@@ -12,11 +12,11 @@
 "keyword.storage.modifier" = { fg = "dark_orange", modifiers = ["bold"] }
 "keyword.function" = { fg = "lime", modifiers = ["bold"] }
 
-"type" = { fg = "magenta" }
-"type.builtin" = { fg = "magenta", modifiers = ["bold"] }
+"type" = { fg = "blue" }
+"type.builtin" = { fg = "blue", modifiers = ["bold"] }
 
-"constant" = { fg = "blue" }
-"constant.builtin" = { fg = "blue", modifiers = ["bold"] }
+"constant" = { fg = "magenta" }
+"constant.builtin" = { fg = "magenta", modifiers = ["bold"] }
 "string" = { fg = "green" }
 
 "variable" = { fg = "base5" }
@@ -29,7 +29,7 @@
 "function.builtin" = { fg = "aqua", modifiers = ["bold"]}
 "function.macro" = { fg = "red" }
 
-"namespace" = { fg = "dark_magenta" }
+"namespace" = { fg = "dark_blue" }
 
 # Errors
 "warning" = "yellow"
