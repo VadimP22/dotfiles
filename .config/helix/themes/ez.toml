@@ -59,8 +59,9 @@
 "ui.menu" = { bg = "base1", fg = "base5" }
 "ui.menu.selected" = { bg = "base5", fg = "base1" }
 "ui.popup" = { fg = "base4", bg = "base1" }
+"ui.help" = { fg = "base6", bg = "base2" }
 "ui.highlight" = "blue"
-"special" = "dark_blue"
+"special" = "base6"
 
 # UI editor
 "ui.virtual.indent-guide" = { fg = "base2" }
@@ -72,7 +73,7 @@
 # Statusline
 "ui.statusline" = { bg = "base2", fg = "base5" }
 "ui.statusline.inactive" = { bg = "base1", fg = "base4" }
-"ui.statusline.normal" = { bg = "base5", fg = "base0", modifiers = ["bold"] }
+"ui.statusline.normal" = { bg = "base6", fg = "base0", modifiers = ["bold"] }
 "ui.statusline.insert" = { bg = "lime", fg = "base0", modifiers = ["bold"] }
 "ui.statusline.select" = { bg = "magenta", fg = "base0", modifiers = ["bold"] }
 
@@ -96,7 +97,7 @@ dark_yellow = "#A57C3E"
 dark_orange = "#A95543"
 dark_red = "#852234"
 dark_magenta = "#6F4588"
-dark_blue = "#384CB5"
+dark_blue = "#354287"
 dark_aqua = "#226B67"
 dark_green = "#467A46"
 dark_lime = "#82955A"
@@ -107,3 +108,4 @@ base2 = "#20222B"
 base3 = "#2E343F"
 base4 = "#3F4756"
 base5 = "#8D9ABA"
+base6 = "#C3D2F9"
