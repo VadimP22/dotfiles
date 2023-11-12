@@ -80,7 +80,7 @@
 
 # Bufferline
 "ui.bufferline" = { bg = "base0", fg = "base4" }
-"ui.bufferline.active" = { bg = "base4", fg = "base6", modifiers = ["bold"] }
+"ui.bufferline.active" = { bg = "base5", fg = "base0", modifiers = ["bold"] }
 
 # Diff
 "diff.plus" = "green"
