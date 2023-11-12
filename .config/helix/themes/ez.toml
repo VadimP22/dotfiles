@@ -23,6 +23,7 @@
 "variable.parameter" = { fg = "dark_aqua" }
 
 "punctuation" = { fg = "base4" }
+"punctuation.bracket" = { fg = "base5" }
 "operator" = { fg = "dark_blue" }
 
 "function" = { fg = "aqua" }
@@ -73,9 +74,9 @@
 # Statusline
 "ui.statusline" = { bg = "base2", fg = "base5" }
 "ui.statusline.inactive" = { bg = "base1", fg = "base4" }
-"ui.statusline.normal" = { bg = "base6", fg = "base0", modifiers = ["bold"] }
-"ui.statusline.insert" = { bg = "orange", fg = "base0", modifiers = ["bold"] }
-"ui.statusline.select" = { bg = "magenta", fg = "base0", modifiers = ["bold"] }
+"ui.statusline.normal" = { bg = "base5", fg = "base0", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "lime", fg = "base0", modifiers = ["bold"] }
+"ui.statusline.select" = { bg = "red", fg = "base0", modifiers = ["bold"] }
 
 # Bufferline
 "ui.bufferline" = { bg = "base0", fg = "base4" }
