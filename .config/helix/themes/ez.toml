@@ -79,7 +79,7 @@
 "ui.statusline.select" = { bg = "red", fg = "base0", modifiers = ["bold"] }
 
 # Bufferline
-"ui.bufferline" = { bg = "base0", fg = "base4" }
+"ui.bufferline" = { bg = "base1", fg = "base4" }
 "ui.bufferline.active" = { bg = "base5", fg = "base0", modifiers = ["bold"] }
 
 # Diff
