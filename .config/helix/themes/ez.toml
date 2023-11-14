@@ -3,7 +3,7 @@
 # Feel free to steal/port/rename :)
 
 # Syntax
-"comment" = { fg = "base3" }
+"comment" = { fg = "dark_base4" }
 "attribute" = { fg = "magenta" }
 
 "keyword" = { fg = "orange", modifiers = ["bold"] }
@@ -44,29 +44,29 @@
 "diagnostic.hint" = { underline = { color = "base5", style = "curl"} }
 
 # UI common
-"ui.background" = { bg = "base0" }
+"ui.background" = { bg = "dark_base0" }
 "ui.text" = { fg = "base5" }
 "ui.text.focus" = { fg = "base6", bg = "base2", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "base3" }
 "ui.text.info" = { fg = "base5" }
 "ui.linenr" = { fg = "base2" }
-"ui.linenr.selected" = { fg = "base3", modifiers = ["bold"] }
+"ui.linenr.selected" = { fg = "dark_base4", modifiers = ["bold"] }
 "ui.cursorline" = { bg = "base1" }
 "ui.selection" = { bg = "base2" }
-"ui.cursor" = { bg = "base5", fg = "base0" }
+"ui.cursor" = { bg = "base5", fg = "dark_base0" }
 "ui.cursor.match" = { fg = "orange", modifiers = ["bold", "underlined"] }
 
 # UI menus
 "ui.menu" = { bg = "base1", fg = "base5" }
 "ui.menu.selected" = { bg = "base5", fg = "base1" }
-"ui.popup" = { fg = "base4", bg = "base1" }
+"ui.popup" = { fg = "base4", bg = "base0" }
 "ui.help" = { fg = "base6", bg = "base2" }
 "ui.highlight" = { bg = "base2" }
 "special" = "lime"
 
 # UI editor
 "ui.virtual.indent-guide" = { fg = "base2" }
-"ui.virtual.ruler" = { bg = "base1" }
+"ui.virtual.ruler" = { bg = "base0" }
 "ui.gutter" = { fg = "base1" }
 "ui.gutter.selected" = { fg = "base3" }
 "ui.window" = { fg = "base1" }
@@ -74,13 +74,13 @@
 # Statusline
 "ui.statusline" = { bg = "base2", fg = "base5" }
 "ui.statusline.inactive" = { bg = "base1", fg = "base4" }
-"ui.statusline.normal" = { bg = "base5", fg = "base0", modifiers = ["bold"] }
-"ui.statusline.insert" = { bg = "lime", fg = "base0", modifiers = ["bold"] }
-"ui.statusline.select" = { bg = "red", fg = "base0", modifiers = ["bold"] }
+"ui.statusline.normal" = { bg = "base5", fg = "dark_base0", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "lime", fg = "dark_base0", modifiers = ["bold"] }
+"ui.statusline.select" = { bg = "magenta", fg = "dark_base0", modifiers = ["bold"] }
 
 # Bufferline
 "ui.bufferline" = { bg = "base1", fg = "base4" }
-"ui.bufferline.active" = { bg = "base5", fg = "base0", modifiers = ["bold"] }
+"ui.bufferline.active" = { bg = "base3", fg = "base5", modifiers = ["bold"] }
 
 # Diff
 "diff.plus" = "green"
@@ -107,10 +107,18 @@ dark_aqua = "#226B67"
 dark_green = "#467A46"
 dark_lime = "#82955A"
 
-base0 = "#0D0E11"
+base0 = "#111216"
 base1 = "#14161B"
 base2 = "#20222B"
 base3 = "#2E343F"
 base4 = "#3F4756"
 base5 = "#8D9ABA"
 base6 = "#C3D2F9"
+
+dark_base0 = "#0D0E11"
+dark_base1 = "#121418"
+dark_base2 = "#191B22"
+dark_base3 = "#282D37"
+dark_base4 = "#39404E"
+dark_base5 = "#76819E"
+dark_base6 = "#A7B5DA"
