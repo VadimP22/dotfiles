@@ -51,7 +51,7 @@
 "ui.text.info" = { fg = "base5" }
 "ui.linenr" = { fg = "base2" }
 "ui.linenr.selected" = { fg = "dark_base4", modifiers = ["bold"] }
-"ui.cursorline" = { bg = "dark_base1" }
+"ui.cursorline" = { bg = "base1" }
 "ui.selection" = { bg = "base2" }
 "ui.cursor" = { bg = "base5", fg = "dark_base0" }
 "ui.cursor.match" = { fg = "orange", modifiers = ["bold", "underlined"] }
