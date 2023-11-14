@@ -26,9 +26,9 @@
 "punctuation.bracket" = { fg = "base5" }
 "operator" = { fg = "dark_blue" }
 
-"function" = { fg = "aqua" }
-"function.builtin" = { fg = "aqua", modifiers = ["bold"]}
-"function.macro" = { fg = "red" }
+"function" = { fg = "red" }
+"function.builtin" = { fg = "red", modifiers = ["bold"]}
+"function.macro" = { fg = "aqua" }
 
 "namespace" = { fg = "dark_blue" }
 
@@ -49,8 +49,8 @@
 "ui.text.focus" = { fg = "base6", bg = "base2", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "base3" }
 "ui.text.info" = { fg = "base5" }
-"ui.linenr" = { fg = "base2" }
-"ui.linenr.selected" = { fg = "dark_base4", modifiers = ["bold"] }
+"ui.linenr" = { fg = "dark_base3" }
+"ui.linenr.selected" = { fg = "base4", modifiers = ["bold"] }
 "ui.cursorline" = { bg = "base1" }
 "ui.selection" = { bg = "base2" }
 "ui.cursor" = { bg = "base5", fg = "dark_base0" }
