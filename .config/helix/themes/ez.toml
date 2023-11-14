@@ -72,7 +72,7 @@
 "ui.window" = { fg = "base1" }
 
 # Statusline
-"ui.statusline" = { bg = "base2", fg = "base5" }
+"ui.statusline" = { bg = "dark_base3", fg = "base5" }
 "ui.statusline.inactive" = { bg = "base1", fg = "base4" }
 "ui.statusline.normal" = { bg = "base5", fg = "dark_base0", modifiers = ["bold"] }
 "ui.statusline.insert" = { bg = "lime", fg = "dark_base0", modifiers = ["bold"] }
