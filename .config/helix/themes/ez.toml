@@ -58,7 +58,7 @@
 
 # UI common
 "ui.background" = { bg = "dark_base0" }
-"ui.text" = { fg = "dark_base5" }
+"ui.text" = { fg = "base5" }
 "ui.text.focus" = { fg = "base6", bg = "base2", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "base3" }
 "ui.text.info" = { fg = "base5" }
@@ -107,7 +107,7 @@ orange = "#FF6F50"
 red = "#E53353"
 magenta = "#A967D2"
 blue = "#556DED"
-aqua = "#45A8BD"
+aqua = "#41ADDC"
 green = "#58B058"
 lime = "#CCFF5F"
 
@@ -116,7 +116,7 @@ dark_orange = "#A95543"
 dark_red = "#852234"
 dark_magenta = "#6F4588"
 dark_blue = "#354287"
-dark_aqua = "#22626B"
+dark_aqua = "#245774"
 dark_green = "#467A46"
 dark_lime = "#82955A"
 
