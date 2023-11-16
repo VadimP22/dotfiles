@@ -8,7 +8,7 @@
 
 "keyword" = { fg = "orange", modifiers = ["bold"] }
 "keyword.control" = { fg = "orange", modifiers = ["bold"] }
-"keyword.directive" = { fg = "dark_orange" }
+"keyword.directive" = { fg = "dark_aqua" }
 "keyword.storage.modifier" = { fg = "lime", modifiers = ["bold"] }
 "keyword.function" = { fg = "lime", modifiers = ["bold"] }
 
