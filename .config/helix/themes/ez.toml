@@ -32,6 +32,19 @@
 
 "namespace" = { fg = "dark_blue" }
 
+# Markup
+"markup.heading" = { fg = "red", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "dark_red", modifiers = ["bold"] }
+"markup.list" = { fg = "lime", modifiers = ["bold"] }
+"markup.bold" = { fg = "magenta", modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "base4" }
+"markup.link.text" = { fg = "blue" }
+"markup.link.label" = { fg = "blue" }
+"markup.quote" = { fg = "yellow" }
+"markup.raw" = { fg = "aqua" }
+
 # Errors
 "warning" = "yellow"
 "error" = "red"
@@ -45,7 +58,7 @@
 
 # UI common
 "ui.background" = { bg = "dark_base0" }
-"ui.text" = { fg = "base5" }
+"ui.text" = { fg = "dark_base5" }
 "ui.text.focus" = { fg = "base6", bg = "base2", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "base3" }
 "ui.text.info" = { fg = "base5" }
