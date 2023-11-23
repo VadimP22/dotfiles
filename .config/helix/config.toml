@@ -1,4 +1,4 @@
-theme = "gotham"
+theme = "nostalgia"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -46,3 +46,10 @@ A-tab = "goto_previous_buffer"
 
 [keys.insert]
 A-j = "rotate_view"
+
+[keys.normal.A-m]
+m = ':sh make -j4'
+r = ':sh make run'
+u = ':sh make update'
+t = ':sh make test'
+b = ':sh make build -j4'
