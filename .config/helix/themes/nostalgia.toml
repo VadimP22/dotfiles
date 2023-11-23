@@ -103,7 +103,7 @@
 
 # Diff
 "diff.plus" = "plus"
-"diff.delta" = "local"
+"diff.delta" = "focused"
 "diff.minus" = "minus"
 
 [palette]
