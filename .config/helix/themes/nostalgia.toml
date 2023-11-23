@@ -9,9 +9,8 @@
 
 "keyword" = { fg = "error" }
 "keyword.control" = { fg = "control" }
-"keyword.directive" = { fg = "macro" }
+"keyword.directive" = { fg = "param" }
 "keyword.storage.modifier" = { fg = "error" }
-"keyword.function" = { fg = "opfn" }
 
 "type" = { fg = "type" }
 "type.builtin" = { fg = "error" }
@@ -20,6 +19,7 @@
 "constant" = { fg = "black" }
 "constant.builtin" = { fg = "error" }
 "constant.character" = { fg = "string" }
+"constant.character.escape" = { fg = "escape" }
 "string" = { fg = "string" }
 
 "variable" = { fg = "black" }
@@ -31,17 +31,32 @@
 
 "function" = { fg = "function" }
 "function.builtin" = { fg = "function" }
-"function.macro" = { fg = "macro" }
+"function.macro" = { fg = "opfn" }
+
+"tag" = "string"
 
 "namespace" = { fg = "black" }
 
+# Markup
+"markup.heading" = { fg = "string" }
+"markup.heading.marker" = { fg = "string" }
+"markup.list" = { fg = "type" }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "control" }
+"markup.link.text" = { fg = "comment" }
+"markup.link.label" = { fg = "comment" }
+"markup.quote" = { fg = "enum" }
+"markup.raw" = { fg = "param" }
+
 # Errors
-"warning" = "enum"
+"warning" = "macro"
 "error" = "error"
 "info" = "black"
 "hint" = "param"
 
-"diagnostic.warning" = { underline = { color = "enum", style = "curl"} }
+"diagnostic.warning" = { underline = { color = "macro", style = "curl"} }
 "diagnostic.error" = { underline = { color = "error", style = "curl"} }
 "diagnostic.info" = { underline = { color = "black", style = "curl"} }
 "diagnostic.hint" = { underline = { color = "param", style = "curl"} }
@@ -53,8 +68,8 @@
 "ui.text.inactive" = { fg = "linenr" }
 "ui.text.info" = { fg = "black" }
 "ui.linenr" = { fg = "linenr" }
-"ui.linenr.selected" = { fg = "base4", modifiers = ["bold"] }
-"ui.cursorline" = { bg = "line" }
+"ui.linenr.selected" = { fg = "base4" }
+"ui.cursorline" = { bg = "context" }
 "ui.selection" = { bg = "selection" }
 "ui.cursor" = { bg = "black", fg = "white" }
 "ui.cursor.match" = { bg = "match", modifiers = ["underlined"] }
@@ -78,7 +93,7 @@
 "ui.statusline" = { bg = "statusline", fg = "white" }
 "ui.statusline.inactive" = { bg = "primary", fg = "toolbar" }
 "ui.statusline.normal" = { bg = "focused", fg = "black" }
-"ui.statusline.insert" = { bg = "type", fg = "black" }
+"ui.statusline.insert" = { bg = "type", fg = "white" }
 "ui.statusline.select" = { bg = "comment", fg = "dark_base0" }
 
 # Bufferline
@@ -133,3 +148,4 @@ opfn = "#008080"
 local = "#1F377F"
 string = "#A31515"
 operator = "#002059"
+escape = "#B676FB"
