@@ -1,90 +1,135 @@
-# Author: André Sá <enkodr@outlook.com>
-# Based on the AYU theme colors from https://github.com/dempfi/ayu
+# Nostalgia theme 
+# Inspired by MS Visual Studio colors
+# Created by VadimP22 (https://github.com/vadimp22)
+# Feel free to steal/port/rename :)
 
-# Syntax highlighting
-"type" = { fg = "#9ce878" }
-"type.builtin" = { fg = "#249388" }
-"constructor" = { fg = "#9ce878" }
-"constant" = { fg = "#e4f279" }
-"string" = { fg = "#c5d671" }
-"string.regexp" = { fg = "#c5d671" }
-"string.special" = { fg = "#c5d671" }
-"comment" = { fg = "#2c3f51", modifiers = ["italic"] }
-"variable" = "foreground"
-"label" = { fg = "#c5d671" }
-"punctuation" = "foreground"
-"keyword" = { fg = "#246c82" }
-"keyword.control" = { fg = "#476683" }
-"keyword.directive" = { fg = "#476683" }
-"operator" = "foreground"
-"function" = { fg = "#1a9d6b" }
-"tag" = { fg = "#249388" }
-"namespace" = { fg = "#249388" }
-"markup.heading" = "foreground"
-"markup.list" = "foreground"
-"markup.raw.block" = "foreground"
-"markup.link.url" = "foreground"
-"markup.link.text" = "foreground"
-"markup.link.label" = "foreground"
-"markup.quote" = "foreground"
-"diff.plus" =  "yellow"
-"diff.minus" = "red"
-"diff.delta" = "green"
+# Syntax
+"comment" = { fg = "comment" }
+"attribute" = { fg = "black" }
 
-# "diff.plus" =  "#A6E22E"
-# "diff.minus" = "#e61f44"
-# "diff.delta" = "#f7b83d"
+"keyword" = { fg = "error" }
+"keyword.control" = { fg = "control" }
+"keyword.directive" = { fg = "macro" }
+"keyword.storage.modifier" = { fg = "error" }
+"keyword.function" = { fg = "opfn" }
 
-# Interface
-"ui.background"= { bg = "background" }
-# "ui.background" = {}
-"ui.cursor" = { fg = "background", bg = "foreground" }
-"ui.cursor.match" = { fg = "yellow", underline = { color = "yellow", style = "line"} }
-"ui.linenr" = { fg = "#1b2632" }
-"ui.linenr.selected" = "foreground"
-#"ui.statusline" = { fg = "background", bg = "#9cadbc" }
-"ui.statusline" = { fg = "background", bg = "#1b2632" }
-"ui.statusline.select" = { fg = "background", bg = "orange"}
-"ui.statusline.normal" = { fg = "background", bg = "foreground"}
-"ui.statusline.insert" = { fg = "background", bg = "yellow"}
-"ui.cursorline" = {}
-"ui.popup" = { fg = "foreground", bg = "black" }
-"ui.window" = "dark_gray"
-"ui.help" = { fg = "#7B91b3", bg = "black" }
-"ui.text" = "foreground"
-"ui.text.focus" = { bg = "dark_gray", fg = "foreground" }
-"ui.text.info" = "foreground"
-"ui.virtual.whitespace" = "dark_gray"
-"ui.virtual.ruler" = { bg = "black" }
-"ui.menu" = { fg = "foreground", bg = "black" }
-"ui.menu.selected" = { bg = "gray", fg = "background" }
-"ui.selection" = { bg = "dark_gray" }
-"warning" = "yellow"
-"error" = { fg = "red", modifiers = ["bold"] }
-"info" = { fg = "foreground", modifiers = ["bold"] }
-"hint" = { fg = "blue", modifiers = ["bold"] }
-"diagnostic.hint"= { underline = { color = "blue", style = "curl" } }
-"diagnostic.info"= { underline = { color = "blue", style = "curl" } }
-"diagnostic.warning"= { underline = { color = "yellow", style = "curl" } }
-"diagnostic.error"= { underline = { color = "red", style = "curl" } }
-"ui.bufferline" = { fg = "gray", bg = "background" }
-"ui.bufferline.active" = { fg = "foreground", bg = "dark_gray" }
+"type" = { fg = "type" }
+"type.builtin" = { fg = "error" }
+"type.enum.variant" = { fg = "enum" }
 
-#"special" = "#9ce878"
-"special" = "orange"
+"constant" = { fg = "black" }
+"constant.builtin" = { fg = "error" }
+"constant.character" = { fg = "string" }
+"string" = { fg = "string" }
+
+"variable" = { fg = "black" }
+"variable.parameter" = { fg = "param" }
+
+"punctuation" = { fg = "param" }
+"punctuation.bracket" = { fg = "black" }
+"operator" = { fg = "operator" }
+
+"function" = { fg = "function" }
+"function.builtin" = { fg = "function" }
+"function.macro" = { fg = "macro" }
+
+"namespace" = { fg = "black" }
+
+# Errors
+"warning" = "enum"
+"error" = "error"
+"info" = "black"
+"hint" = "param"
+
+"diagnostic.warning" = { underline = { color = "enum", style = "curl"} }
+"diagnostic.error" = { underline = { color = "error", style = "curl"} }
+"diagnostic.info" = { underline = { color = "black", style = "curl"} }
+"diagnostic.hint" = { underline = { color = "param", style = "curl"} }
+
+# UI common
+"ui.background" = { fg = "black", bg = "white" }
+"ui.text" = { fg = "black" }
+"ui.text.focus" = { bg = "enabled" }
+"ui.text.inactive" = { fg = "linenr" }
+"ui.text.info" = { fg = "black" }
+"ui.linenr" = { fg = "linenr" }
+"ui.linenr.selected" = { fg = "base4", modifiers = ["bold"] }
+"ui.cursorline" = { bg = "line" }
+"ui.selection" = { bg = "selection" }
+"ui.cursor" = { bg = "black", fg = "white" }
+"ui.cursor.match" = { bg = "match", modifiers = ["underlined"] }
+
+# UI menus
+"ui.menu" = { bg = "context", fg = "black" }
+"ui.menu.selected" = { bg = "focused", fg = "black" }
+"ui.popup" = { fg = "black", bg = "context" }
+"ui.help" = { fg = "white", bg = "primary" }
+"ui.highlight" = { bg = "line" }
+"special" = "primary"
+
+# UI editor
+"ui.virtual.indent-guide" = { fg = "helpers" }
+"ui.virtual.ruler" = { bg = "context" }
+"ui.gutter" = { fg = "secondary" }
+"ui.gutter.selected" = { fg = "black" }
+"ui.window" = { fg = "primary" }
+
+# Statusline
+"ui.statusline" = { bg = "statusline", fg = "white" }
+"ui.statusline.inactive" = { bg = "primary", fg = "toolbar" }
+"ui.statusline.normal" = { bg = "focused", fg = "black" }
+"ui.statusline.insert" = { bg = "type", fg = "black" }
+"ui.statusline.select" = { bg = "comment", fg = "dark_base0" }
+
+# Bufferline
+"ui.bufferline" = { bg = "inactive", fg = "white" }
+"ui.bufferline.active" = { bg = "focused", fg = "black" }
+"ui.bufferline.background" = { bg = "primary" }
+
+# Diff
+"diff.plus" = "plus"
+"diff.delta" = "local"
+"diff.minus" = "minus"
 
 [palette]
-background = "#090d11"
-foreground = "#9cadbc"
+white = "#FFFFFF"
+black = "#000000"
 
-black = "#121a22"
-blue = "#1a9d6b"
-dark_gray = "#323843"
-cyan = "#1a9d6b"
-gray = "#565b66"
-green = "#249388"
-magenta = "#246c82"
-orange = "#ffad66"
-red = "#ba0e2e"
-yellow = "#9ce878"
+accent = "#203D77"
+primary = "#5D6B99"
+secondary = "#C4D5FF"
 
+inactive = "#3B4F81"
+focused = "#F5CC84"
+enabled = "#FFEDC8"
+unfocused = "#CCD5F0"
+
+context = "#E9EEFF"
+header = "#40568D"
+toolbar = "#CCD5F0"
+statusline = "#40508D"
+
+base4 = "#464646"
+linenr = "#7A7A7A"
+line = "#ECECEC"
+
+# Common
+comment = "#008000"
+selection = "#BFCDDB"
+helpers = "#2B90AF"
+match = "#DBE0CC"
+error = "#0000FF"
+plus = "#75923C"
+minus = "#FF6666"
+
+# Syntax
+type = "#2B91AF"
+enum = "#2F4F4F"
+function = "#74531F"
+control = "#8F08C4"
+param = "#808080"
+macro = "#891BFF"
+opfn = "#008080"
+local = "#1F377F"
+string = "#A31515"
+operator = "#002059"
