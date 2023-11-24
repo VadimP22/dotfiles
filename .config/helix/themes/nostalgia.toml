@@ -38,13 +38,12 @@
 "namespace" = { fg = "black" }
 
 # Markup
-"markup.heading" = { fg = "string" }
-"markup.heading.marker" = { fg = "string" }
-"markup.list" = { fg = "type" }
+"markup.heading" = { fg = "type" }
+"markup.list" = { fg = "string" }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
-"markup.link.url" = { fg = "control" }
+"markup.link.url" = { fg = "type" }
 "markup.link.text" = { fg = "comment" }
 "markup.link.label" = { fg = "comment" }
 "markup.quote" = { fg = "enum" }
