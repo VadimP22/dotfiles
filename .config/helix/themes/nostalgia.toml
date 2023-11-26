@@ -50,12 +50,12 @@
 "markup.raw" = { fg = "param" }
 
 # Errors
-"warning" = "macro"
+"warning" = "escape"
 "error" = "error"
 "info" = "black"
 "hint" = "param"
 
-"diagnostic.warning" = { underline = { color = "macro", style = "curl"} }
+"diagnostic.warning" = { underline = { color = "escape", style = "curl"} }
 "diagnostic.error" = { underline = { color = "error", style = "curl"} }
 "diagnostic.info" = { underline = { color = "black", style = "curl"} }
 "diagnostic.hint" = { underline = { color = "param", style = "curl"} }
