@@ -42,7 +42,8 @@ A-f = "file_picker_in_current_directory"
 A-b = "file_picker_in_current_buffer_directory"
 # buffer navigation
 tab = "goto_next_buffer"
-A-tab = "goto_previous_buffer" 
+A-tab = "goto_previous_buffer"
+S-tab = "goto_previous_buffer"
 
 [keys.insert]
 A-j = "rotate_view"
@@ -53,3 +54,4 @@ r = ':sh make run'
 u = ':sh make update'
 t = ':sh make test'
 b = ':sh make build -j4'
+c = ':sh make clean'
