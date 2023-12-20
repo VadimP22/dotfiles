@@ -42,11 +42,27 @@ A-f = "file_picker_in_current_directory"
 A-b = "file_picker_in_current_buffer_directory"
 # buffer navigation
 tab = "goto_next_buffer"
-A-tab = "goto_previous_buffer"
-S-tab = "goto_previous_buffer"
+A-tab = "goto_previous_buffer" 
+S-tab = "goto_previous_buffer" 
+A-s = [
+    "save_selection",
+    "goto_line_end",
+    ":append-output echo ';'",
+    "collapse_selection",
+    "delete_selection",
+    "jump_backward",
+]
 
 [keys.insert]
 A-j = "rotate_view"
+A-s = [
+    "save_selection",
+    "goto_line_end",
+    ":append-output echo ';'",
+    "collapse_selection",
+    "delete_selection",
+    "jump_backward",
+]
 
 [keys.normal.A-m]
 m = ':sh make -j4'
