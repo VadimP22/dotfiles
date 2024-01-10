@@ -1,2 +1,6 @@
-# my dotfiles + my helix theme Ez
-![logo](https://github.com/VadimP22/dotfiles/blob/master/.config/helix/themes/Ez%20palette%20(1).png)
+# My dotfiles
+- Helix - code editor
+- Hyprland - window manager
+- Waybar - status bar
+- Mako - notifications daemon
+![screenshot](https://github.com/VadimP22/dotfiles/blob/master/screenshot.png)
