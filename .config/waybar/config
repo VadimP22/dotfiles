@@ -1,0 +1,47 @@
+{
+    "layer": "bottom", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 12, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": ["custom/session", "hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "hyprland/language", "pulseaudio", "custom/lock"],
+    "hyprland/window": {
+        "format": "{class}"
+    },
+    "hyprland/language": {
+        "format-en": "EN",
+        "format-ru": "RU"
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon} {volume}%",
+        "format-muted": " Mut",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/lock": {
+        "format": "  ",
+        "on-click": "swaylock --color 161925bf",
+    },
+    "custom/session": {
+        "format": "  ◯",
+        "on-click": "wlogout -p layer-shell",
+    }
+}
+
