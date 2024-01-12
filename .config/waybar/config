@@ -41,7 +41,7 @@
     },
     "custom/session": {
         "format": "  ◯",
-        "on-click": "wlogout -p layer-shell",
+        "on-click": "wlogout --css ~/.config/waybar/wlogout.css -p layer-shell",
     },
     "bluetooth": {
 	    "format": "Blt ◯",
