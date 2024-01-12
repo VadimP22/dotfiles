@@ -5,5 +5,5 @@
 - Mako - notifications daemon
   
 ### Screenshots
-![screenshot2](https://github.com/VadimP22/dotfiles/blob/master/screenshot2.png)
+![screenshot3](https://github.com/VadimP22/dotfiles/blob/master/screenshot3.png)
 ![screenshot](https://github.com/VadimP22/dotfiles/blob/master/screenshot.png)
