@@ -37,11 +37,11 @@
     },
     "custom/lock": {
         "format": "  ",
-        "on-click": "swaylock --color 161925bf",
+        "on-click": "swaylock -c 161925bf --font \"JetBrains Mono\" --layout-bg-color 00000000 --separator-color 00000000 --inside-color 00000000",
     },
     "custom/session": {
         "format": "  ◯",
-        "on-click": "wlogout --css ~/.config/waybar/wlogout.css -p layer-shell",
+        "on-click": "wlogout --layout ~/.config/waybar/wlogout.layout --css ~/.config/waybar/wlogout.css -p layer-shell",
     },
     "bluetooth": {
 	    "format": "Blt ◯",
