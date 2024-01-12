@@ -4,6 +4,13 @@
   font-family: "JetBrains Mono";
   font-weight: bold;
   font-size: 9pt;
+  box-shadow: none;
+}
+
+tooltip {
+    border-radius: 10px;
+    background: rgba(22, 25, 37, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 window#waybar {
