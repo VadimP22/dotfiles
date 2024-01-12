@@ -1,0 +1,13 @@
+font:
+  size: 9
+  normal:
+    family: JetBrains Mono
+
+colors:
+  # Tomorrow (https://github.com/aarowill/base16-alacritty/blob/master/colors/base16-tomorrow.yml)
+  # Default colors
+  primary:
+    background: '0x161925'
+
+window:
+  opacity: 0.75
