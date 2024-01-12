@@ -9,5 +9,24 @@ colors:
   primary:
     background: '0x161925'
 
+  normal:
+    black:   '0x000000'
+    red:     '0x9e3c53'
+    green:   '0x1f8761'
+    yellow:  '0xcc774b'
+    blue:    '0x4032ab'
+    magenta: '0xB877DB'
+    cyan:    '0x50b0ba'
+    white:   '0xD5D8DA'
+  bright:
+    black:   '0x222222'
+    red:     '0xE95678'
+    green:   '0x27D796'
+    yellow:  '0xFAB795'
+    blue:    '0x6e52fa'
+    magenta: '0xEE64AE'
+    cyan:    '0x7aeefa'
+    white:   '0xe9eef2'
+
 window:
   opacity: 0.75
