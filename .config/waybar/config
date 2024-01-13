@@ -37,7 +37,7 @@
     },
     "custom/lock": {
         "format": "  ",
-        "on-click": "swaylock -c 161925bf --font \"JetBrains Mono\" --layout-bg-color 00000000 --separator-color 00000000 --inside-color 00000000",
+        "on-click": "swaylock -c 161925bf --font \"JetBrains Mono\" --layout-bg-color 00000000 --separator-color 00000000 --inside-color 00000000 --clock --indicator",
     },
     "custom/session": {
         "format": "  ◯",
