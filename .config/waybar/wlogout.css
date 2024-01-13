@@ -7,7 +7,7 @@
   font-size: 9pt;
 }
 window {
-  background-color: transparent;
+  background-color: rgba(22, 25, 37, 0.75);
 }
 button {
   color: #FFFFFF;
