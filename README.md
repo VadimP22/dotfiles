@@ -3,6 +3,7 @@
 - Hyprland - window manager
 - Waybar - status bar
 - Mako - notifications daemon
+- Firefox Theme: https://github.com/datguypiko/Firefox-Mod-Blur/tree/master
   
 ### Screenshots
 ![screenshot3](https://github.com/VadimP22/dotfiles/blob/master/screenshot3.png)
