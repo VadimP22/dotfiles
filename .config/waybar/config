@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-left": ["custom/session", "hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["tray","network", "bluetooth", "hyprland/language", "pulseaudio", "custom/lock"],
+    "modules-right": ["tray","network", "bluetooth", "keyboard-state", "hyprland/language", "pulseaudio", "custom/lock"],
     "hyprland/window": {
         "format": "{class}",
         "max-length": 40
@@ -16,13 +16,26 @@
         "format-en": "EN",
         "format-ru": "RU"
     },
+    "keyboard-state": {
+        "numlock": false,
+        "scrollock": false,
+        "capslock": true,
+        "format": {
+            "numlock": "Num {icon}",
+            "capslock": "Cps {icon}",
+            "scrollock": "Scrl {icon}"
+        },
+        "format-icons": {
+            "locked": "●",
+            "unlocked": "◯"
+        }
+    },
     "clock": {
-        // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
+        "scroll-step": 1, 
         "format": "{icon} {volume}%",
         "format-muted": " Mut",
         "format-icons": {
