@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock -c 161925bf --font \"JetBrains Mono\" --layout-bg-color 00000000 --separator-color 00000000 --inside-color 00000000",
+    "action" : "swaylock -c 161925bf --font \"JetBrains Mono\" --layout-bg-color 00000000 --separator-color 00000000 --inside-color 00000000 --clock --indicator",
     "text" : "Lock",
     "keybind" : "l"
 }
