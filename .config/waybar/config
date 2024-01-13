@@ -38,10 +38,12 @@
     "custom/lock": {
         "format": "  ",
         "on-click": "swaylock -c 161925bf --font \"JetBrains Mono\" --layout-bg-color 00000000 --separator-color 00000000 --inside-color 00000000 --clock --indicator",
+        "tooltip": false
     },
     "custom/session": {
         "format": "  ◯",
         "on-click": "wlogout --layout ~/.config/waybar/wlogout.layout --css ~/.config/waybar/wlogout.css -p layer-shell",
+        "tooltip": false
     },
     "bluetooth": {
 	    "format": "Blt ◯",
