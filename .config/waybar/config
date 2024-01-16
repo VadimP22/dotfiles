@@ -16,6 +16,10 @@
         "format-en": "EN",
         "format-ru": "RU"
     },
+    "tray": {
+        "icon-size": 14,
+        "spacing": 14
+    },
     "keyboard-state": {
         "numlock": false,
         "scrollock": false,
