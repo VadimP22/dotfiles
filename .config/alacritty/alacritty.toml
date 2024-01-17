@@ -1,0 +1,12 @@
+[font.normal]
+family = "JetBrains Mono"
+
+[font]
+size = 9
+
+[colors.primary]
+background = "#161925"
+
+[window]
+# decorations = "transparent"
+opacity = 0.75
