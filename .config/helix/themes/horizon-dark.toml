@@ -1,17 +1,17 @@
 # Syntax
-string = "orange"
-constant = "purple"
+"string" = "orange"
+"constant" = "purple"
 "constant.numeric" = "orange"
 "constant.builtin" = "orange"
-variable = "red"
-comment = "light-gray"
-special = "purple"
+"variable" = "red"
+"comment" = "light-gray"
+"special" = "purple"
 "punctuation.bracket" = "purple"
-keyword = "purple"
-function = "blue"
-label = "orange"
-type = "orange"
-namespace = "orange"
+"keyword" = "purple"
+"function" = "blue"
+"label" = "orange"
+"type" = "orange"
+"namespace" = "orange"
 
 # User Interface
 "ui.background" = { fg = "gray" }
@@ -29,7 +29,11 @@ namespace = "orange"
 "ui.selection" = { bg = "selection" }
 "ui.virtual.indent-guide" = { fg = "gray"}
 "ui.virtual.whitespace" = { fg = "light-gray"}
-"ui.statusline" = { bg = "dark-bg", fg = "light-gray" }
+"ui.statusline.inactive" = { bg = "dark-bg", fg = "light-gray" }
+"ui.statusline.normal" = { bg = "white", fg = "dark-bg", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "blue", fg = "dark-bg", modifiers = ["bold"] }
+"ui.statusline.select" = { bg = "red", fg = "dark-bg", modifiers = ["bold"] }
+"ui.statusline" = { bg = "dark-bg", fg = "white" }
 "ui.popup" = { bg = "dark-bg", fg = "orange" }
 "ui.help" = { bg = "dark-bg", fg = "orange" }
 "ui.menu" = { bg = "dark-bg", fg = "light-gray" }
@@ -45,10 +49,10 @@ namespace = "orange"
 "diagnostics.error" = { underline = { color = "red", style = "curl"} }
 "diagnostics.warning" = { underline = { color = "orange", style = "curl"} }
 
-warning = { fg = "orange", modifiers = ["bold"] }
-error = { fg = "red", modifiers = ["bold"] }
-info = { fg = "blue", modifiers = ["bold"] }
-hint = { fg = "green", modifiers = ["bold"] }
+"warning" = { fg = "orange", modifiers = ["bold"] }
+"error" = { fg = "red", modifiers = ["bold"] }
+"info" = { fg = "blue", modifiers = ["bold"] }
+"hint" = { fg = "green", modifiers = ["bold"] }
 
 # Markup
 "markup.heading" = "pink"
