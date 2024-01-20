@@ -12,6 +12,7 @@
 "label" = "orange"
 "type" = "orange"
 "namespace" = "orange"
+"tag" = "white"
 
 # User Interface
 "ui.background" = { fg = "gray" }
