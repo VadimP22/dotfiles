@@ -1,10 +1,10 @@
 * {
-  background-color: transparent;
-  color: white;
-  font-family: "JetBrains Mono";
-  font-weight: bold;
-  font-size: 9pt;
-  box-shadow: none;
+    background-color: transparent;
+    color: white;
+    font-family: "JetBrains Mono";
+    font-weight: bold;
+    font-size: 9pt;
+    box-shadow: none;
 }
 
 tooltip {
