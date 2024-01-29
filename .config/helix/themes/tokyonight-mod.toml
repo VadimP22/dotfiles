@@ -25,10 +25,11 @@
 "operator" = { fg = "magenta2" }
 
 "function" = { fg = "red" }
-"function.builtin" = { fg = "red", modifiers = ["bold"]}
+"function.builtin" = { fg = "red", modifiers = ["bold"] }
 "function.macro" = { fg = "red1" }
 
 "namespace" = { fg = "blue0" }
+"tag" = { fg = "yellow", modifiers=["bold"] }
 
 # Markup
 "markup.heading" = { fg = "magenta", modifiers = ["bold"] }
