@@ -29,7 +29,7 @@ button:focus, button:active {
 }
 
 button:hover{
-  background-size: 20%;
+  background-size: 30%;
   transition-duration: 100ms;
 }
 
