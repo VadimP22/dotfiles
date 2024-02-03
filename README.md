@@ -3,6 +3,7 @@
 - Hyprland - window manager
 - Waybar - status bar
 - Mako - notifications daemon
+- Swaylock Effects - lock screen 
 - Firefox Theme: https://github.com/datguypiko/Firefox-Mod-Blur/tree/master
   
 ### Screenshots
