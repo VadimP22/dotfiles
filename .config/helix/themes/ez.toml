@@ -31,6 +31,7 @@
 "function.macro" = { fg = "aqua" }
 
 "namespace" = { fg = "dark_blue" }
+"tag" = { fg = "base5", modifiers = ["bold"] }
 
 # Markup
 "markup.heading" = { fg = "red", modifiers = ["bold"] }
