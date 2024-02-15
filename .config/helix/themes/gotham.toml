@@ -3,39 +3,43 @@
 # 
 # Port by VadimP22 with some modifications :) (https://github.com/vadimp22)
  
-
+# Syntax
+"comment" = "base3"
 "attribute" = "magenta"
+
 "keyword" = { fg = "red", modifiers = ["bold"] }
-"keyword.directive" = "red"
-"keyword.operator" = "orange"
-"keyword.storage" = {fg = "cyan", modifiers = ["bold"]}
-"keyword.storage.modifier" = "cyan"
-"namespace" = "cyan"
-"punctuation" = "cyan"
-"punctuation.delimiter" = "cyan"
-"operator" = "orange"
-"special" = "orange"
-"variable.other.member" = "cyan"
-"variable" = "cyan"
-"variable.parameter" = "cyan"
+"keyword.directive" = { fg = "blue" }
+"keyword.operator" = { fg = "orange", modifiers = ["bold"]}
+
 "type" = "orange"
 "type.builtin" = { fg = "orange", modifiers = ["bold"] }
-"constructor" = "red"
-"function" = "base6"
-"function.macro" = { fg = "orange", modifiers = ["bold"] }
-"function.special" = { fg = "orange", modifiers = ["bold"] }
-"function.builtin" = { fg = "blue", modifiers = ["bold"] }
-# "comment" = "blue"
-"comment" = "base3"
-"variable.builtin" = {fg = "base5", modifiers = ["bold"]}
+
 "constant" = "magenta"
 "constant.builtin" = {fg = "magenta", modifiers = ["bold"]}
-"string" = "green"
 "constant.numeric" = "orange"
-"constant.character.escape" = { fg = "green", modifiers = ["bold"] }
-"label" = "blue"
-"module" = "red"
+"constant.character.escape" = { fg = "yellow", modifiers = ["bold"] }
 
+"string" = "green"
+
+"variable" = "cyan"
+"variable.parameter" = "base4"
+"variable.builtin" = { fg = "cyan", modifiers = ["bold"]}
+
+"punctuation" = "base3"
+"punctuation.bracket" = "cyan"
+"operator" = "orange"
+
+"function" = "base6"
+"function.builtin" = { fg = "base6", modifiers = ["bold"] }
+"function.macro" = { fg = "blue", modifiers = ["bold"] }
+"function.special" = { fg = "yellow" }
+
+"constructor" = "orange"
+
+"namespace" = "cyan"
+"tag" = { fg = "base4", modifiers = ["bold"]}
+
+# Markup
 "markup.heading" = "blue"
 "markup.list" = "red"
 "markup.bold" = { fg = "yellow", modifiers = ["bold"] }
@@ -46,52 +50,64 @@
 "markup.quote" = "green"
 "markup.raw" = "green"
 
-"diff.plus" = "green"
-"diff.delta" = "orange"
-"diff.minus" = "red"
-
-# "ui.background" = { bg = "base0" }
-"ui.background" = { bg = "#000000" }
-"ui.linenr" = { fg = "base2" }
-"ui.linenr.selected" = { fg = "base5" }
-"ui.cursorline" = { bg = "base1" }
-# "ui.statusline" = { fg = "base0", bg = "base5" }
-"ui.statusline" = { fg = "base0", bg = "base5" }
-# "ui.statusline.inactive" = { fg = "base4", bg = "base3" }
-"ui.statusline.inactive" = { fg = "base5", bg = "base3" }
-"ui.popup" = { bg = "base1" }
-"ui.window" = { bg = "base1" }
-"ui.help" = { bg = "base1" }
-
-"ui.statusline.normal" = { fg = "base0", bg = "blue", modifiers = [ "bold" ]}
-"ui.statusline.insert" = { fg = "base0", bg = "orange", modifiers = [ "bold" ]}
-"ui.statusline.select" = { fg = "base0", bg = "cyan", modifiers = [ "bold" ] }
-
-"ui.bufferline" = { fg = "blue", bg = "#000000" }
-"ui.bufferline.active" = { fg = "base5", bg = "base3", modifiers = ["bold"]}
-
-"ui.text" = { fg = "base6" }
-"ui.text.focus" = { fg = "base6", modifiers= ["bold"] }
-"ui.virtual.whitespace" = "base3"
-"ui.virtual.ruler" = { bg = "base1" }
-
-"ui.selection" = { bg = "base3" }
-"ui.cursor.match" = { modifiers = ["underlined", "bold"] }
-"ui.cursor" = { modifiers = ["reversed"] }
-
-"ui.menu" = { fg = "base5", bg = "base1" }
-"ui.menu.selected" = { bg = "base3" }
-
+# Errors
 "warning" = "orange"
 "error" = "red"
 "info" = "green"
 "hint" = "blue"
 
-# make diagnostic underlined, to distinguish with selection text.
 "diagnostic.warning" = { underline = { color = "orange", style = "curl"} }
 "diagnostic.error" = { underline = { color = "red", style = "curl"} }
 "diagnostic.info" = { underline = { color = "green", style = "curl"} }
 "diagnostic.hint" = { underline = { color = "blue", style = "curl"} }
+
+# UI common
+"ui.background" = { bg = "base0", fg = "base5" }
+"ui.text" = { fg = "base6" }
+"ui.text.focus" = { fg = "base6", modifiers= ["bold"] }
+"ui.text.inactive" = { fg = "base3" }
+"ui.text.info" = { fg = "base5" }
+"ui.linenr" = { fg = "base2" }
+"ui.linenr.selected" = { fg = "base5" }
+"ui.cursorline" = { bg = "base1" }
+"ui.selection" = { bg = "base2" }
+"ui.cursor.match" = { modifiers = ["underlined", "bold"] }
+"ui.cursor" = { modifiers = ["reversed"] }
+
+# UI menus
+"ui.menu" = { fg = "base5", bg = "base1" }
+"ui.menu.selected" = { bg = "base3" }
+"ui.popup" = { bg = "base1", fg = "#00ff00" }
+"ui.help" = { bg = "base1" }
+"ui.highlight" = { bg = "base1" }
+"special" = "orange"
+
+# UI editor
+"ui.virtual.whitespace" = "base3"
+"ui.virtual.indent-guide" = "base3"
+"ui.virtual.ruler" = { bg = "base1" }
+"ui.gutter" = { fg = "base2" }
+"ui.gutter.selected" = { fg = "base5" }
+"ui.window" = { fg = "base3" }
+
+# Statusline
+"ui.statusline" = { fg = "base5", bg = "base2" }
+"ui.statusline.inactive" = { fg = "base4", bg = "base1" }
+"ui.statusline.normal" = { fg = "base7", bg = "blue", modifiers = [ "bold" ]}
+"ui.statusline.insert" = { fg = "base7", bg = "orange", modifiers = [ "bold" ]}
+"ui.statusline.select" = { fg = "base7", bg = "green", modifiers = [ "bold" ] }
+
+# Bufferline
+"ui.bufferline" = { fg = "base5", bg = "base2" }
+"ui.bufferline.background" = { fg = "base7", bg = "base1"}
+"ui.bufferline.active" = { fg = "base7", bg = "blue", modifiers = ["bold"]}
+
+
+# Diff
+"diff.plus" = "green"
+"diff.delta" = "orange"
+"diff.minus" = "red"
+
 
 [palette]
 
