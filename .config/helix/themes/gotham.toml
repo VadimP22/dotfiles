@@ -77,7 +77,7 @@
 # UI menus
 "ui.menu" = { fg = "base5", bg = "base1" }
 "ui.menu.selected" = { bg = "base3" }
-"ui.popup" = { bg = "base1", fg = "#00ff00" }
+"ui.popup" = { bg = "base1", fg = "base4" }
 "ui.help" = { bg = "base1" }
 "ui.highlight" = { bg = "base1" }
 "special" = "orange"
@@ -102,15 +102,12 @@
 "ui.bufferline.background" = { fg = "base7", bg = "base1"}
 "ui.bufferline.active" = { fg = "base7", bg = "blue", modifiers = ["bold"]}
 
-
 # Diff
 "diff.plus" = "green"
 "diff.delta" = "orange"
 "diff.minus" = "red"
 
-
 [palette]
-
 red = "#c23127"
 orange = "#d26937"
 yellow = "#edb443"
