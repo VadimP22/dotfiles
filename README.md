@@ -3,7 +3,8 @@
 - Hyprland - window manager
 - Waybar - status bar
 - Mako - notifications daemon
-- Swaylock Effects - lock screen 
+- Swaylock Effects - lock screen
+- Wlogout - session management gui
 - Firefox Theme: https://github.com/datguypiko/Firefox-Mod-Blur/tree/master
   
 ### Screenshots
