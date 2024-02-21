@@ -1,12 +1,42 @@
 [font.normal]
-family = "JetBrains Mono"
+family = "Terminus (TTF)"
 
 [font]
 size = 9
 
+# [colors.primary]
+# background = "#161925"
+
+# Colors (Tokyo Night)
+# Source https//github.com/zatchheems/tokyo-night-alacritty-theme
+
+# Default colors
 [colors.primary]
-background = "#161925"
+background = '#0D0E11'
+foreground = '#8D9ABA'
+
+# Normal colors
+[colors.normal]
+black   = '#000000'
+red     = '#852234'
+green   = '#467A46'
+yellow  = '#A57C3E'
+blue    = '#354287'
+magenta = '#6F4588'
+cyan    = '#245774'
+white   = '#8D9ABA'
+
+# Bright colors
+[colors.bright]
+black   = '#111216'
+red     = '#E53353'
+green   = '#58B058'
+yellow  = '#FFBF60'
+blue    = '#556DED'
+magenta = '#A967D2'
+cyan    = '#41ADDC'
+white   = '#C3D2F9'
 
 [window]
 # decorations = "transparent"
-opacity = 0.75
+opacity = 0.5
