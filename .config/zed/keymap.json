@@ -1,0 +1,24 @@
+[
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "alt-w": "pane::CloseActiveItem",
+      "alt-v": "pane::SplitRight",
+      "alt-j": "workspace::ActivateNextPane",
+      "space f": "pane::RevealInProjectPanel"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "alt-w": "pane::CloseActiveItem",
+      "alt-j": "workspace::ActivateNextPane"
+    }
+  },
+  {
+    "context": "Workspace || Editor",
+    "bindings": {
+      "alt-q": "workspace::ToggleLeftDock"
+    }
+  }
+]
