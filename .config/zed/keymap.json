@@ -18,7 +18,8 @@
   {
     "context": "Workspace || Editor",
     "bindings": {
-      "alt-q": "workspace::ToggleLeftDock"
+      "alt-q": "workspace::ToggleLeftDock",
+      "alt-m": "task::Spawn"
     }
   }
 ]
