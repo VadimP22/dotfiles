@@ -1,11 +1,17 @@
 [
   {
+    "bindings": {
+      "shift-tab": "menu::SelectPrev",
+      "tab": "menu::SelectNext"
+    }
+  },
+  {
     "context": "Editor && vim_mode == normal",
     "bindings": {
       "alt-w": "pane::CloseActiveItem",
       "alt-v": "pane::SplitRight",
       "alt-j": "workspace::ActivateNextPane",
-      "space f": "pane::RevealInProjectPanel"
+      "alt-f": "pane::RevealInProjectPanel"
     }
   },
   {
@@ -20,6 +26,23 @@
     "bindings": {
       "alt-q": "workspace::ToggleLeftDock",
       "alt-m": "task::Spawn"
+    }
+  },
+  {
+    "context": "Editor && (showing_code_actions || showing_completions)",
+    "bindings": {
+      "shift-tab": "editor::ContextMenuPrev",
+      "up": "editor::ContextMenuPrev",
+      "tab": "editor::ContextMenuNext",
+      "down": "editor::ContextMenuNext",
+      "pageup": "editor::ContextMenuFirst",
+      "pagedown": "editor::ContextMenuLast"
+    }
+  },
+  {
+    "context": "Editor && showing_completions",
+    "bindings": {
+      "space": "editor::ConfirmCompletion"
     }
   }
 ]
