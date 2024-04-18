@@ -6,6 +6,12 @@
     }
   },
   {
+    "context": "Pane",
+    "bindings": {
+      "alt-w": "pane::CloseActiveItem"
+    }
+  },
+  {
     "context": "Editor && vim_mode == normal",
     "bindings": {
       "alt-w": "pane::CloseActiveItem",
