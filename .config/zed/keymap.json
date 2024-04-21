@@ -45,11 +45,11 @@
       "pageup": "editor::ContextMenuFirst",
       "pagedown": "editor::ContextMenuLast"
     }
-  },
-  {
-    "context": "Editor && showing_completions",
-    "bindings": {
-      "space": "editor::ConfirmCompletion"
-    }
   }
+  // {
+  //   "context": "Editor && showing_completions",
+  //   "bindings": {
+  //     "space": "editor::ConfirmCompletion"
+  //   }
+  // }
 ]
