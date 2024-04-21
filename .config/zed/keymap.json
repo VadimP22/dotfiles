@@ -17,7 +17,8 @@
       "alt-w": "pane::CloseActiveItem",
       "alt-v": "pane::SplitRight",
       "alt-j": "workspace::ActivateNextPane",
-      "alt-f": "pane::RevealInProjectPanel"
+      "alt-f": "pane::RevealInProjectPanel",
+      "space k": "editor::Hover"
     }
   },
   {
