@@ -39,7 +39,7 @@
 "error" = { fg = "re", modifiers = ["bold"] }
 
 "attribute" = "ye"
-"type" = "ye"
+"type" = "ma"
 "constructor" = "gr"
 "constant" = "pu"
 "constant.builtin" = "ye"
