@@ -26,35 +26,35 @@
 "ui.menu" = { fg = "tx", bg = "bg" }
 "ui.menu.selected" = { bg = "ui", fg = "tx" }
 "ui.debug" = { fg = "or", bg = "bg" }
-"ui.highlight.frameline" = { bg = "yellow" }
+"ui.highlight.frameline" = { bg = "ye-2" }
 "diagnostic.hint" = { underline = { color = "bl", style = "curl" } }
 "diagnostic.info" = { underline = { color = "bl", style = "curl" } }
-"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "ye-2", style = "curl" } }
 "diagnostic.error" = { underline = { color = "re", style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 "hint" = { fg = "bl", modifiers = ["bold"] }
-"info" = { fg = "yellow", modifiers = ["bold"] }
+"info" = { fg = "ye-2", modifiers = ["bold"] }
 "warning" = { fg = "or", modifiers = ["bold"] }
 "error" = { fg = "re", modifiers = ["bold"] }
 
-"attribute" = "yellow"
+"attribute" = "ye-2"
 "type" = "ma"
 "constructor" = "gr"
 "constant" = "pu"
 "constant.builtin" = "cyan"
 "string" = "cy"
 "string.regexp" = "or"
-"string.special" = "yellow"
+"string.special" = "ye-2"
 "comment" = "tx-3"
 "variable" = "tx"
 "variable.builtin" = "ma"
 "variable.other" = "bl"
 "punctuation" = "tx-2"
 "keyword" = "gr"
-"keyword.control" = "pink"
+"keyword.control" = "ma-2"
 "keyword.control.conditional" = "gr"
-"keyword.control.import" = "yellow"
+"keyword.control.import" = "ye-2"
 "keyword.control.return" = "gr"
 "keyword.function" = "gr"
 "keyword.storage.type" = "bl"
@@ -65,19 +65,19 @@
 "namespace" = "re"
 
 "markup.heading" = "or"
-"markup.list" = "yellow"
+"markup.list" = "ye-2"
 "markup.bold" = { fg = "or", modifiers = ["bold"] }
 "markup.italic" = { fg = "or", modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 "markup.raw.block" = "or"
 "markup.link.url" = "bl"
-"markup.link.text" = "yellow"
+"markup.link.text" = "ye-2"
 "markup.link.label" = "gr"
-"markup.quote" = "yellow"
+"markup.quote" = "ye-2"
 "markup.raw" = "bl"
 "diff.plus" = "gr"
 "diff.minus" = "re"
-"diff.delta" = "yellow"
+"diff.delta" = "ye-2"
 
 "special" = "bl"
 "ui.bufferline" = { bg = "bg", fg = "tx-3"}
@@ -104,20 +104,20 @@ pu = "#8B7EC8"
 ma = "#CE5D97"
 
 # From papercolor dark
-black = "#1c1c1c"
-red = "#af005f"
-green = "#5faf00"
-green-2 = "#5faf5f"
-yellow = "#d7af5f"
-blue = "#5fafd7"
-gray = "#808080"
-orange = "#d7875f"
-white = "#d0d0d0"
-magenta = "#af87d7"
-pink = "#ff5faf"
-cyan = "#00afaf"
+bl-2 = "#1c1c1c"
+re-2 = "#af005f"
+gr-2 = "#5faf00"
+gr-3 = "#5faf5f"
+ye-2 = "#d7af5f"
+bl-2 = "#5fafd7"
+gr-2 = "#808080"
+or-2 = "#d7875f"
+wh-2 = "#d0d0d0"
+pu-2 = "#af87d7"
+ma-2 = "#ff5faf"
+cy-2 = "#00afaf"
 
-light-black = "#585858"
-light-green = "#afd700"
-light-orange = "#ffaf00"
-light-white = "#5f8787"
+bl-3 = "#585858"
+gr-4 = "#afd700"
+or-3 = "#ffaf00"
+wh-3 = "#5f8787"
