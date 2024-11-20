@@ -1,4 +1,4 @@
-# Based on Flexoki: https://stephango.com/flexoki
+# Based on Flexoki: https://stephango.com/flexoki and Papercolor
 # Modified by Vadim Petrov (VadimP22)
 
 "ui.background" = { bg = "bg" }
@@ -26,35 +26,35 @@
 "ui.menu" = { fg = "tx", bg = "bg" }
 "ui.menu.selected" = { bg = "ui", fg = "tx" }
 "ui.debug" = { fg = "or", bg = "bg" }
-"ui.highlight.frameline" = { bg = "ye" }
+"ui.highlight.frameline" = { bg = "yellow" }
 "diagnostic.hint" = { underline = { color = "bl", style = "curl" } }
 "diagnostic.info" = { underline = { color = "bl", style = "curl" } }
-"diagnostic.warning" = { underline = { color = "ye", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
 "diagnostic.error" = { underline = { color = "re", style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 "hint" = { fg = "bl", modifiers = ["bold"] }
-"info" = { fg = "ye", modifiers = ["bold"] }
+"info" = { fg = "yellow", modifiers = ["bold"] }
 "warning" = { fg = "or", modifiers = ["bold"] }
 "error" = { fg = "re", modifiers = ["bold"] }
 
-"attribute" = "ye"
+"attribute" = "yellow"
 "type" = "ma"
 "constructor" = "gr"
 "constant" = "pu"
-"constant.builtin" = "ye"
+"constant.builtin" = "cyan"
 "string" = "cy"
 "string.regexp" = "or"
-"string.special" = "ye"
+"string.special" = "yellow"
 "comment" = "tx-3"
 "variable" = "tx"
 "variable.builtin" = "ma"
 "variable.other" = "bl"
 "punctuation" = "tx-2"
 "keyword" = "gr"
-"keyword.control" = "re"
+"keyword.control" = "pink"
 "keyword.control.conditional" = "gr"
-"keyword.control.import" = "ye"
+"keyword.control.import" = "yellow"
 "keyword.control.return" = "gr"
 "keyword.function" = "gr"
 "keyword.storage.type" = "bl"
@@ -65,25 +65,26 @@
 "namespace" = "re"
 
 "markup.heading" = "or"
-"markup.list" = "ye"
+"markup.list" = "yellow"
 "markup.bold" = { fg = "or", modifiers = ["bold"] }
 "markup.italic" = { fg = "or", modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 "markup.raw.block" = "or"
 "markup.link.url" = "bl"
-"markup.link.text" = "ye"
+"markup.link.text" = "yellow"
 "markup.link.label" = "gr"
-"markup.quote" = "ye"
+"markup.quote" = "yellow"
 "markup.raw" = "bl"
 "diff.plus" = "gr"
 "diff.minus" = "re"
-"diff.delta" = "ye"
+"diff.delta" = "yellow"
 
 "special" = "bl"
 "ui.bufferline" = { bg = "bg", fg = "tx-3"}
 "ui.bufferline.active" = { bg = "bg-2", fg = "tx" }
 
 [palette]
+# From flexoki dark
 tx = "#CECDC3"
 tx-2 = "#878580"
 tx-3 = "#575653"
@@ -101,3 +102,22 @@ cy = "#3AA99F"
 bl = "#4385BE"
 pu = "#8B7EC8"
 ma = "#CE5D97"
+
+# From papercolor dark
+black = "#1c1c1c"
+red = "#af005f"
+green = "#5faf00"
+green-2 = "#5faf5f"
+yellow = "#d7af5f"
+blue = "#5fafd7"
+gray = "#808080"
+orange = "#d7875f"
+white = "#d0d0d0"
+magenta = "#af87d7"
+pink = "#ff5faf"
+cyan = "#00afaf"
+
+light-black = "#585858"
+light-green = "#afd700"
+light-orange = "#ffaf00"
+light-white = "#5f8787"
