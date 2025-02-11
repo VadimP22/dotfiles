@@ -67,7 +67,7 @@
 "ui.text.focus" = { fg = "base6", modifiers= ["bold"] }
 "ui.text.inactive" = { fg = "base3" }
 "ui.text.info" = { fg = "base5" }
-"ui.linenr" = { fg = "base2" }
+"ui.linenr" = { fg = "base3" }
 "ui.linenr.selected" = { fg = "base5" }
 "ui.cursorline" = { bg = "base1" }
 "ui.selection" = { bg = "base2" }
